@@ -1,0 +1,33 @@
+<ion-header >
+  <ion-toolbar color="primary">
+      <ion-icon (click)="backData()" name="close-circle-outline" class="close" ></ion-icon> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="card-cont"> 
+  <ion-card *ngIf="dataf" >
+  <ion-slides >
+  <img src="{{dataf.img}}" class="card-cont-data">
+  </ion-slides>
+
+
+  <p class="ion-test-namedorm">
+      &nbsp;{{dataf.namedorm}}  
+  </p>
+
+<!-- <ion-card (click)="mapMap()" >  <div #map id="map" ></div></ion-card> -->
+
+<p class="ion-test-header">
+  &nbsp;&nbsp;&nbsp; {{dataf.}} 
+</p>
+
+
+<p class="ion-test-header">
+  &nbsp;&nbsp;&nbsp; {{dataf.}}   
+</p>
+
+<p class="ion-test-header">
+  &nbsp;&nbsp;&nbsp; {{dataf.}} 
+</p>
+</ion-card>
+</ion-content>
